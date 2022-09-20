@@ -1,0 +1,21 @@
+{
+  "name": "are-you-paying-attention",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build src/index.js src/frontend.js src/edit.js",
+    "start": "wp-scripts start src/index.js src/frontend.js src/edit.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^24.0.0"
+  },
+  "dependencies": {
+    "react-color": "^2.19.3",
+    "swiper": "^8.4.2"
+  }
+}
